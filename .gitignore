@@ -15,6 +15,10 @@ env/
 # Streamlit secrets and local configuration
 .streamlit/secrets.toml
 
+# Local agent skill copies
+.agents/skills/developing-with-streamlit/
+.claude/skills/developing-with-streamlit/
+
 # Hugging Face / model caches (ReaderLM-v2 weights are downloaded here)
 .cache/huggingface/
 **/.cache/huggingface/

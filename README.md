@@ -14,6 +14,12 @@ pip install -r requirements.txt
 
 Install the PyTorch build appropriate for your machine if needed. On Apple Silicon, install the macOS PyTorch build to use MPS; on NVIDIA systems, install a CUDA-enabled PyTorch build matching your CUDA setup. The app falls back to CPU when neither accelerator is available.
 
+`torchvision` is included because Transformers imports image-processing components while initializing model support. Keep its version aligned with the installed PyTorch version. If you already have a virtual environment, install the updated requirements into that environment:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ## Run
 
 ```bash

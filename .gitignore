@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit secrets and local configuration
+.streamlit/secrets.toml
+
+# Hugging Face / model caches (ReaderLM-v2 weights are downloaded here)
+.cache/huggingface/
+**/.cache/huggingface/
+**/models--jinaai--ReaderLM-v2/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
